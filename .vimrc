@@ -4,4 +4,7 @@ set number "Show line numbers
 
 autocmd Filetype java set makeprg=javac\ % "Compile all .java files with F9
 set errorformat=%A%f:%l:\ %m,%-Z%p^,%-C%.%# "Print Error messages
-map <F9> :make<Return>:copen<Return> 
+map <F9> :make<Return>:copen<Return>
+
+"Compile with Makefile and run the program currently opened
+map <F8> :w <CR> :!make && ./%<<CR>
