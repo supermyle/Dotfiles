@@ -1,6 +1,8 @@
 set tabstop=4 "Set tabs to 4 spaces
 set shiftwidth=4 "Set indentation to 4 when using << or >>
 set number "Show line numbers
+colorscheme ron "Set default color scheme
+syntax on "Enable syntax highlighting
 
 "Compile/Run languages with <F9>
 autocmd filetype java nnoremap <F9> :w <CR> :!javac *.java && java main<CR>
