@@ -1,6 +1,7 @@
 set tabstop=4 "Set tabs to 4 spaces
 set shiftwidth=4 "Set indentation to 4 when using << or >>
 set number "Show line numbers
+set ruler "Show row and col position
 colorscheme ron "Set default color scheme
 syntax on "Enable syntax highlighting
 
