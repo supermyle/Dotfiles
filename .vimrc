@@ -12,6 +12,7 @@ autocmd filetype c nnoremap <F9> :w<CR> :!clear<CR> :!gcc % -o %< && ./%<<CR>
 autocmd filetype cpp nnoremap <F9> :w<CR> :!clear<CR> :!g++ % -o %< && ./%<<CR>
 autocmd filetype python nnoremap <F9> :w<CR> :!clear<CR> :!python3 ./%<CR>
 autocmd filetype perl nnoremap <F9> :w<CR> :!clear<CR> :!perl ./%<CR>
+autocmd filetype sh nnoremap <F9> :w<CR> :!clear<CR> :!sh %<CR>
 "Compile/Run C/CPP using Makefile or multiple java files with <F8> and clear console
 autocmd filetype c nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype cpp nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
