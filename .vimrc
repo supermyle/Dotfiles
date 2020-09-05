@@ -8,6 +8,7 @@ syntax on "Enable syntax highlighting
 
 "Compile/Run languages with <F9> and clear console
 autocmd filetype java nnoremap <F9> :w<CR> :!clear<CR> :!javac % && java %<<CR>
+autocmd filetype javascript nnoremap <F9> :w<CR> :!clear<CR> :!npx eslint %<CR>
 autocmd filetype c nnoremap <F9> :w<CR> :!clear<CR> :!gcc % -o %< && ./%<<CR>
 autocmd filetype cpp nnoremap <F9> :w<CR> :!clear<CR> :!g++ % -o %< && ./%<<CR>
 autocmd filetype python nnoremap <F9> :w<CR> :!clear<CR> :!python3 ./%<CR>
