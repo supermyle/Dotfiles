@@ -18,3 +18,4 @@ autocmd filetype sh nnoremap <F9> :w<CR> :!clear<CR> :!sh %<CR>
 autocmd filetype c nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype cpp nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype java nnoremap <F8> :w<CR> :!clear<CR> :!javac *.java && java main<CR>
+autocmd filetype javascript nnoremap <F8> :w<CR> :!clear<CR> :!yarn test<CR>
