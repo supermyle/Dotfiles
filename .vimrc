@@ -17,5 +17,6 @@ autocmd filetype sh nnoremap <F9> :w<CR> :!clear<CR> :!sh %<CR>
 "Compile/Run C/CPP using Makefile or multiple java files with <F8> and clear console
 autocmd filetype c nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype cpp nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
+autocmd filetype python nnoremap <F8> :w<CR> :!clear<CR> :!python ./%<CR>
 autocmd filetype java nnoremap <F8> :w<CR> :!clear<CR> :!javac *.java && java Main<CR>
 autocmd filetype javascript nnoremap <F8> :w<CR> :!clear<CR> :!yarn test<CR>
