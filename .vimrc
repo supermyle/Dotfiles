@@ -20,3 +20,5 @@ autocmd filetype cpp nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype python nnoremap <F8> :w<CR> :!clear<CR> :!python ./%<CR>
 autocmd filetype java nnoremap <F8> :w<CR> :!clear<CR> :!javac *.java && java Main<CR>
 autocmd filetype javascript nnoremap <F8> :w<CR> :!clear<CR> :!yarn test<CR>
+"Run Windows specific programs from WSL terminal with <F7> and clear console
+autocmd filetype python nnoremap <F7> :w<CR> :!clear<CR> :!/mnt/c/Python27/python.exe ./%<CR>
