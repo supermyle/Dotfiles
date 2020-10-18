@@ -22,3 +22,5 @@ autocmd filetype java nnoremap <F8> :w<CR> :!clear<CR> :!javac *.java && java Ma
 autocmd filetype javascript nnoremap <F8> :w<CR> :!clear<CR> :!yarn test<CR>
 "Run Windows specific programs from WSL terminal with <F7> and clear console
 autocmd filetype python nnoremap <F7> :w<CR> :!clear<CR> :!/mnt/c/Python27/python.exe ./%<CR>
+"Web Development Windows open current HTML file in Chrome with <F9>
+autocmd filetype html nnoremap <F9> :w<CR> :!clear<CR> :!/mnt/c/'Program Files (x86)'/Google/Chrome/Application/Chrome.exe %<CR>
