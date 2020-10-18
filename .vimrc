@@ -14,6 +14,8 @@ autocmd filetype cpp nnoremap <F9> :w<CR> :!clear<CR> :!g++ % -o %< && ./%<<CR>
 autocmd filetype python nnoremap <F9> :w<CR> :!clear<CR> :!python3 ./%<CR>
 autocmd filetype perl nnoremap <F9> :w<CR> :!clear<CR> :!perl ./%<CR>
 autocmd filetype sh nnoremap <F9> :w<CR> :!clear<CR> :!sh %<CR>
+"Web Development Windows open current HTML file in Chrome with <F9>
+autocmd filetype html nnoremap <F9> :w<CR> :!clear<CR> :!/mnt/c/'Program Files (x86)'/Google/Chrome/Application/Chrome.exe %<CR>
 "Compile/Run C/CPP using Makefile or multiple java files with <F8> and clear console
 autocmd filetype c nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype cpp nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
@@ -22,5 +24,3 @@ autocmd filetype java nnoremap <F8> :w<CR> :!clear<CR> :!javac *.java && java Ma
 autocmd filetype javascript nnoremap <F8> :w<CR> :!clear<CR> :!yarn test<CR>
 "Run Windows specific programs from WSL terminal with <F7> and clear console
 autocmd filetype python nnoremap <F7> :w<CR> :!clear<CR> :!/mnt/c/Python27/python.exe ./%<CR>
-"Web Development Windows open current HTML file in Chrome with <F9>
-autocmd filetype html nnoremap <F9> :w<CR> :!clear<CR> :!/mnt/c/'Program Files (x86)'/Google/Chrome/Application/Chrome.exe %<CR>
