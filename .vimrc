@@ -33,8 +33,12 @@ autocmd filetype html nnoremap <F8> :w<CR> :!clear<CR> :!firefox %<CR>
 
 "KEYMAPS FOR <F9>
 
-"autocmd filetype html nnoremap <F9> :w<CR> :!clear<CR> :!/mnt/c/'Program Files (x86)'/Google/Chrome/Application/Chrome.exe %<CR>
+"autocmd filetype html nnoremap <F9> :w<CR> :!clear<CR> :!powershell.exe start chrome %<CR>
+
+"KEYMAPS FOR <F8>
+
+"autocmd filetype html nnoremap <F8> :w<CR> :!clear<CR> :!powershell.exe start firefox %<CR>
 
 "KEYMAPS FOR <F7>
 
-"autocmd filetype python nnoremap <F7> :w<CR> :!clear<CR> :!/mnt/c/Python27/python.exe ./%<CR>
+"autocmd filetype python nnoremap <F7> :w<CR> :!clear<CR> :!python.exe ./%<CR>
