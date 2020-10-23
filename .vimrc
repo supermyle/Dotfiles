@@ -1,9 +1,9 @@
-set tabstop=4 "Set tabs to 4 spaces
-set shiftwidth=4 "Set indentation to 4 when using << or >>
+colorscheme ron "Set default color scheme
+set incsearch "Search for text as you type it using /
 set number "Show line numbers
 set ruler "Show row and col position
-set incsearch "Search for text as you type it using /
-colorscheme ron "Set default color scheme
+set shiftwidth=4 "Set indentation to 4 when using << or >>
+set tabstop=4 "Set tabs to 4 spaces
 syntax on "Enable syntax highlighting
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
