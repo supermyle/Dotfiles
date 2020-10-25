@@ -16,6 +16,7 @@ autocmd filetype c nnoremap <F9> :w<CR> :!clear<CR> :!gcc % -o %< && ./%<<CR>
 autocmd filetype cpp nnoremap <F9> :w<CR> :!clear<CR> :!g++ % -o %< && ./%<<CR>
 autocmd filetype html nnoremap <F9> :w<CR> :!clear<CR> :!google-chrome %<CR>
 autocmd filetype java nnoremap <F9> :w<CR> :!clear<CR> :!javac % && java %<<CR>
+autocmd filetype lua nnoremap <F9> :w<CR> :!clear<CR> :!lua %<CR>
 autocmd filetype perl nnoremap <F9> :w<CR> :!clear<CR> :!perl ./%<CR>
 autocmd filetype python nnoremap <F9> :w<CR> :!clear<CR> :!python3 ./%<CR>
 autocmd filetype sh nnoremap <F9> :w<CR> :!clear<CR> :!sh %<CR>
