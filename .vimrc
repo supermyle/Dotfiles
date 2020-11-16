@@ -3,7 +3,9 @@ set incsearch "Search for text as you type it using /
 set number "Show line numbers
 set ruler "Show row and col position
 set shiftwidth=4 "Set indentation to 4 when using << or >>
+set tabpagemax=50 "Maximum number of tab pages that can be opened from the command line
 set tabstop=4 "Set tabs to 4 spaces
+set title "Set the window’s title to the file currently being edited
 syntax on "Enable syntax highlighting
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
