@@ -1,5 +1,6 @@
 colorscheme ron "Set default color scheme
 set incsearch "Search for text as you type it using /
+set mouse=a "Enable all mouse modes
 set number "Show line numbers
 set ruler "Show row and col position
 set shiftwidth=4 "Set indentation to 4 when using << or >>
