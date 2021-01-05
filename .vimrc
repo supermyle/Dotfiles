@@ -32,3 +32,17 @@ autocmd filetype c nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype cpp nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype html nnoremap <F8> :w<CR> :!clear<CR> :!firefox %<CR>
 autocmd filetype python nnoremap <F8> :w<CR> :!clear<CR> :!python ./%<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Keymappings for Windows with WSL
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+"KEYMAPS FOR <F9>
+
+"autocmd filetype html nnoremap <F9> :w<CR> :!clear<CR> :!powershell.exe start chrome %<CR>
+"autocmd filetype python nnoremap <F9> :w<CR> :!clear<CR> :!powershell.exe python3 ./%<CR>
+
+"KEYMAPS FOR <F8>
+
+"autocmd filetype html nnoremap <F8> :w<CR> :!clear<CR> :!powershell.exe start firefox %<CR>
+"autocmd filetype python nnoremap <F8> :w<CR> :!clear<CR> :!powershell.exe python ./%<CR>
