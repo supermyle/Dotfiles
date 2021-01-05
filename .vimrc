@@ -31,6 +31,7 @@ autocmd filetype sh nnoremap <F9> :w<CR> :!clear<CR> :!bash %<CR>
 autocmd filetype c nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype cpp nnoremap <F8> :w<CR> :!clear<CR> :!make && ./%<<CR>
 autocmd filetype html nnoremap <F8> :w<CR> :!clear<CR> :!firefox %<CR>
+autocmd filetype lisp nnoremap <F8> :w<CR> :!clear<CR> :!sbcl --script %<CR>
 autocmd filetype python nnoremap <F8> :w<CR> :!clear<CR> :!python ./%<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
