@@ -24,6 +24,7 @@ autocmd filetype lua nnoremap <F9> :w<CR> :!clear<CR> :!lua %<CR>
 autocmd filetype perl nnoremap <F9> :w<CR> :!clear<CR> :!perl ./%<CR>
 autocmd filetype php nnoremap <F9> :w<CR> :!clear<CR> :!php %<CR>
 autocmd filetype python nnoremap <F9> :w<CR> :!clear<CR> :!python3 ./%<CR>
+autocmd filetype ruby nnoremap <F9> :w<CR> :!clear<CR> :!ruby ./%<CR>
 autocmd filetype sh nnoremap <F9> :w<CR> :!clear<CR> :!bash %<CR>
 
 "KEYMAPS FOR <F8>
