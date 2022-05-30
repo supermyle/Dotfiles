@@ -1,4 +1,4 @@
-colorscheme ron "Set default color scheme
+colorscheme koehler "Set default color scheme
 set incsearch "Search for text as you type it using /
 set mouse=a "Enable all mouse modes
 set number "Show line numbers
