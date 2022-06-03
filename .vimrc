@@ -27,3 +27,6 @@ autocmd filetype sh nnoremap <F9> :w<CR> :!clear && bash %<CR>
 
 autocmd filetype c nnoremap <F8> :w<CR> :!make && clear && ./%<<CR>
 autocmd filetype cpp nnoremap <F8> :w<CR> :!make && clear && ./%<<CR>
+
+"KEYMAP TO COPY TO SYSTEM CLIPBOARD MUST HAVE +CLIPBOARD ENABLED
+vmap <C-c> "+y 
