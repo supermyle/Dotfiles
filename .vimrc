@@ -1,4 +1,5 @@
 colorscheme koehler "Set default color scheme
+set nohlsearch "Disable hlsearch on startup
 set incsearch "Search for text as you type it using /
 set mouse=a "Enable all mouse modes
 set number "Show line numbers
