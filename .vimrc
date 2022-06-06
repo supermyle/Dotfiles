@@ -12,9 +12,9 @@ syntax on "Enable syntax highlighting
 
 "KEYMAPS FOR <F9>
 
-autocmd filetype c nnoremap <F9> :w<CR> :!gcc % -o %< && clear && ./%<<CR>
-autocmd filetype cpp nnoremap <F9> :w<CR> :!g++ % -o %< && clear && ./%<<CR>
-autocmd filetype java nnoremap <F9> :w<CR> :!javac % && clear && java %<<CR>
+autocmd filetype c nnoremap <F9> :w<CR> :!clear && gcc % -o %< && ./%<<CR>
+autocmd filetype cpp nnoremap <F9> :w<CR> :!clear && g++ % -o %< && ./%<<CR>
+autocmd filetype java nnoremap <F9> :w<CR> :!clear && javac % && java %<<CR>
 autocmd filetype javascript nnoremap <F9> :w<CR> :!clear && node %<CR>
 autocmd filetype lisp nnoremap <F9> :w<CR> :!clear && clisp %<CR>
 autocmd filetype lua nnoremap <F9> :w<CR> :!clear && lua %<CR>
@@ -26,8 +26,8 @@ autocmd filetype sh nnoremap <F9> :w<CR> :!clear && bash %<CR>
 
 "KEYMAPS FOR <F8>
 
-autocmd filetype c nnoremap <F8> :w<CR> :!make && clear && ./%<<CR>
-autocmd filetype cpp nnoremap <F8> :w<CR> :!make && clear && ./%<<CR>
+autocmd filetype c nnoremap <F8> :w<CR> :!clear && make && ./%<<CR>
+autocmd filetype cpp nnoremap <F8> :w<CR> :!clear && make && ./%<<CR>
 
 "KEYMAP TO COPY TO SYSTEM CLIPBOARD MUST HAVE +CLIPBOARD ENABLED
 vmap <C-c> "+y 
