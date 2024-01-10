@@ -21,6 +21,7 @@ autocmd filetype lisp nnoremap <F9> :w<CR> :!clear && clisp %<CR>
 autocmd filetype lua nnoremap <F9> :w<CR> :!clear && lua %<CR>
 autocmd filetype perl nnoremap <F9> :w<CR> :!clear && perl ./%<CR>
 autocmd filetype php nnoremap <F9> :w<CR> :!clear && php %<CR>
+autocmd filetype ps1 nnoremap <F9> :w<CR> :!clear && powershell.exe -File ./%<CR>
 autocmd filetype python nnoremap <F9> :w<CR> :!clear && python3 ./%<CR>
 autocmd filetype ruby nnoremap <F9> :w<CR> :!clear && ruby ./%<CR>
 autocmd filetype sh nnoremap <F9> :w<CR> :!clear && bash %<CR>
