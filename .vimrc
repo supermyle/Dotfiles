@@ -14,6 +14,7 @@ syntax on "Enable syntax highlighting
 
 autocmd filetype c nnoremap <F9> :w<CR> :!clear && gcc % -o %< && ./%<<CR>
 autocmd filetype cpp nnoremap <F9> :w<CR> :!clear && g++ % -o %< && ./%<<CR>
+autocmd filetype cs nnoremap <F9> :w<CR> :!clear && dotnet run<CR>
 autocmd filetype java nnoremap <F9> :w<CR> :!clear && javac % && java %<<CR>
 autocmd filetype javascript nnoremap <F9> :w<CR> :!clear && node %<CR>
 autocmd filetype lisp nnoremap <F9> :w<CR> :!clear && clisp %<CR>
